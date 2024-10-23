@@ -25,7 +25,7 @@ Users can specify parameters such as the slope (`a`), intercept (`b`), number of
 │   └── stock.ipynb            # HW1-2: auto regression , multiple linear regression 
 ├── README.md                  # Project README
 └── requirements.txt           # List of dependencies
-
+```
 ## Setup
 
 ### 1. Clone the repository:
@@ -70,7 +70,7 @@ To run the **Streamlit** application:
 1. Ensure that you are in your virtual environment (check if it's active using `which python` or `python --version`).
 2. Run the following command:
    ```bash
-   streamlit run app.py
+   streamlit run hw1-1/app.py
    ```
 
 3. Open your browser and go to `http://localhost:8501/`. You can now interact with the app by adjusting the slope (`a`), intercept (`b`), number of data points, and noise level, and see the results in real time.
